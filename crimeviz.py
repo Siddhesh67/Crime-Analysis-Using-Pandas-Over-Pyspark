@@ -9,7 +9,7 @@ os.system("pkill -f 'spark-submit'")
 # Initialize Spark session
 spark = SparkSession.builder.appName("CrimeAnalysis").getOrCreate()
 
-# Define file path
+# file path
 file_path = "/Users/smitbhabal/Downloads/Cleaned_Crime_Chicago.csv"
 
 # Load dataset
